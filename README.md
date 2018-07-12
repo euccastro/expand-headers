@@ -1,7 +1,7 @@
 # expand-headers
 
-Expand ring response headers with seq-of-String values into sets of
-string-valued headers differentiated by case.
+Expand each ring response header with seq-of-String values into separate map
+entries with string values and keys differentiated by case.
 
 ## Why
 
