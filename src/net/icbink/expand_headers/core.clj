@@ -1,4 +1,4 @@
-(ns expand-headers.core
+(ns net.icbink.expand-headers.core
   (:require [clojure.string :as str]))
 
 
@@ -61,6 +61,6 @@
 
   (clojure.pprint/pprint
    (expand-headers {"a-bcd-efgh-ijkl-mnop-qrst" ["1" "2" "3" "4" "5"]
-                    "cAse-resPeCted-wHeN" "value is string"})
+                    "cAse-lEfT-ALONE-wHeN" "value is a string"})
    )
   )
