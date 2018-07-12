@@ -68,8 +68,8 @@ values.
 
 ## Status
 
-Beta; API is unlikely to change in breaking ways but this has only been tested
-in the REPL so far.
+Beta; API is unlikely to change in breaking ways but this has only been manually
+tested so far.
 
 Known limitation: an exception will be raised if you have a header with more
 values to expand than 2^n where n is the number of letters in the header key
