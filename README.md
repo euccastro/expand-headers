@@ -39,7 +39,7 @@ headers map, with keys differentiated by case. For example,
  "cAse-lEfT-ALONE-wHeN" "value is a string"}
 ```
 
-This library implements this workaround as a ring handler.
+This library implements this workaround as a ring wrapper.
 
 ## Usage
 
